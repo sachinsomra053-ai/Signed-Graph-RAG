@@ -1,0 +1,16 @@
+[
+  {"name": "Elena Vale", "type": "PERSON", "aliases": ["Prime Minister Vale", "Vale"]},
+  {"name": "Marcus Thorne", "type": "PERSON", "aliases": ["Thorne"]},
+  {"name": "Priya Desai", "type": "PERSON", "aliases": ["Desai"]},
+  {"name": "Jonas Reed", "type": "PERSON", "aliases": ["Reed"]},
+  {"name": "Ada Kovac", "type": "PERSON", "aliases": ["Senator Ada Kovac", "Senator Kovac", "Kovac"]},
+  {"name": "National Alliance", "type": "PARTY", "aliases": []},
+  {"name": "Green Union", "type": "PARTY", "aliases": []},
+  {"name": "Progressive Front", "type": "PARTY", "aliases": []},
+  {"name": "Liberty Party", "type": "PARTY", "aliases": []},
+  {"name": "Aldermoor", "type": "COUNTRY", "aliases": []},
+  {"name": "Kestria", "type": "COUNTRY", "aliases": []},
+  {"name": "Veloria Workers Federation", "type": "ORGANIZATION", "aliases": ["Workers Federation"]},
+  {"name": "Northgate Energy", "type": "ORGANIZATION", "aliases": ["Northgate"]},
+  {"name": "Carbon Tax Bill", "type": "POLICY", "aliases": ["carbon tax"]}
+]
