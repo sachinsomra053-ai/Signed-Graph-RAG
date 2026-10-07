@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signed-graphrag"
+version = "0.1.0"
+description = "GraphRAG over signed knowledge graphs: polarity-aware extraction, structural balance checking and faction detection for news and politics."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["networkx>=3.2", "numpy>=1.26", "matplotlib>=3.8"]
+
+[project.optional-dependencies]
+llm = ["anthropic>=0.40"]
+rss = ["feedparser>=6.0"]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[project.scripts]
+signed-graphrag = "signed_graphrag.cli:main"
+
+[tool.setuptools]
+packages = ["signed_graphrag"]
+
+[tool.ruff]
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
